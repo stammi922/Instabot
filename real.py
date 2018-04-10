@@ -10,16 +10,18 @@ from src.follow_protocol import follow_protocol
 from src.unfollow_protocol import unfollow_protocol
 
 bot = InstaBot(
-    login="st_walking_dog",
-    password="oh1^3VSOp0s5",
-    like_per_day=1000,
+    login="molteo_de",
+    password="Uso75V79JpfC",
+    like_per_day=150,
     comments_per_day=0,
-    tag_list=['dogs', 'cutedogs', 'cute','labrador','wuffy'],
-    tag_blacklist=['rain', 'thunderstorm'],
-    user_blacklist={},
-    max_like_for_one_tag=50,
+    tag_list=['tiefbau','hochbau', 'baugewerbe','bauindustrie','digitalisierung','bauprojekt','handwerk','gartenbau','abbund','bauunternehmen','baustelle','hochtief','bauverband','baurecht'],
+    max_like_for_one_tag=15,
     follow_per_day=0,
     unfollow_per_day=0,
+    start_at_h=8,
+    start_at_m=13,
+    end_at_h=17,
+    end_at_m=5
     )
 
 while True:
